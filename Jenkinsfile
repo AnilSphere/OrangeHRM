@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/AnilSphere/OrangeHRM.git'
+              checkout scm
             }
         }
 
